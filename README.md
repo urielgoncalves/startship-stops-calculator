@@ -21,4 +21,4 @@ Ship Name: Y-wing | Stops for resupply: 74
 - .NET Core 3.1
 - xUnit 2.4
 
-<iframe src="https://drive.google.com/file/d/1Ebf0bl1k_Th1Tj2xzW8-2olnmlbHOaDZ/preview" width="640" height="480"></iframe>
+[https://drive.google.com/file/d/1Ebf0bl1k_Th1Tj2xzW8-2olnmlbHOaDZ/view](https://drive.google.com/file/d/1Ebf0bl1k_Th1Tj2xzW8-2olnmlbHOaDZ/view)
