@@ -64,11 +64,11 @@ namespace StarWarsApp
             {
                 var inputTravelDistance = Console.ReadLine();
                 validDistance = long.TryParse(inputTravelDistance, out travelDistance);
-                if (!validDistance)
+                if (!validDistance || travelDistance <= 0)
                 {
                     Console.WriteLine("Invalid distance. Try again...");
                 }
-            } while (!validDistance);
+            } while (!validDistance || travelDistance <= 0);
 
             return travelDistance;
         }
