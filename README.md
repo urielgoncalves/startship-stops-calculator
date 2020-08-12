@@ -1,6 +1,6 @@
 # Star Wars Starship Stops Calculator
 
-This is a .NET Core console application which consumes the Start Wars API (https://swapi.dev) to calculate how many stops for resupply are required in a given distance.
+This is a .NET Core console application which consumes the Star Wars API (https://swapi.dev) to calculate how many stops for resupply are required in a given distance.
 
 ### Features
 - Show starships and how many stops for resupply are required until the end of the travel.
