@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarWarsApp", "StarWarsApp\StarWarsApp.csproj", "{14B36A88-4004-4198-87A9-DF1B524A5BA0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarWarsApp.Infrastructure", "StarWarsApp.Infrastructure\StarWarsApp.Infrastructure.csproj", "{C5CAA1AF-1BD1-4591-BC6D-1B04373B0F1E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarWarsApp.Core", "StarWarsApp.Core\StarWarsApp.Core.csproj", "{D61A25D6-FA6B-4621-BD3F-1A23A91BB186}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarWarsApp.Shared", "StarWarsApp.Shared\StarWarsApp.Shared.csproj", "{834FD744-628C-400C-B4BE-DD28F3C24BB0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarWarsApp.Infrastructure.Tests", "StarWarsApp.Infrastructure.Tests\StarWarsApp.Infrastructure.Tests.csproj", "{D85DF4D2-6D64-4457-9536-CB31ACCA10D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarWarsApp.Core.Tests", "StarWarsApp.Core.Tests\StarWarsApp.Core.Tests.csproj", "{9BE1FADA-371D-47FD-AC61-592427A76997}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarWarsApp.Tests", "StarWarsApp.Tests\StarWarsApp.Tests.csproj", "{E5950891-1682-4523-B47D-DC773AD64E5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14B36A88-4004-4198-87A9-DF1B524A5BA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14B36A88-4004-4198-87A9-DF1B524A5BA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14B36A88-4004-4198-87A9-DF1B524A5BA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14B36A88-4004-4198-87A9-DF1B524A5BA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5CAA1AF-1BD1-4591-BC6D-1B04373B0F1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5CAA1AF-1BD1-4591-BC6D-1B04373B0F1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5CAA1AF-1BD1-4591-BC6D-1B04373B0F1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5CAA1AF-1BD1-4591-BC6D-1B04373B0F1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D61A25D6-FA6B-4621-BD3F-1A23A91BB186}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D61A25D6-FA6B-4621-BD3F-1A23A91BB186}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D61A25D6-FA6B-4621-BD3F-1A23A91BB186}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D61A25D6-FA6B-4621-BD3F-1A23A91BB186}.Release|Any CPU.Build.0 = Release|Any CPU
+		{834FD744-628C-400C-B4BE-DD28F3C24BB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{834FD744-628C-400C-B4BE-DD28F3C24BB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{834FD744-628C-400C-B4BE-DD28F3C24BB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{834FD744-628C-400C-B4BE-DD28F3C24BB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D85DF4D2-6D64-4457-9536-CB31ACCA10D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D85DF4D2-6D64-4457-9536-CB31ACCA10D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D85DF4D2-6D64-4457-9536-CB31ACCA10D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D85DF4D2-6D64-4457-9536-CB31ACCA10D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BE1FADA-371D-47FD-AC61-592427A76997}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BE1FADA-371D-47FD-AC61-592427A76997}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BE1FADA-371D-47FD-AC61-592427A76997}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BE1FADA-371D-47FD-AC61-592427A76997}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5950891-1682-4523-B47D-DC773AD64E5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5950891-1682-4523-B47D-DC773AD64E5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5950891-1682-4523-B47D-DC773AD64E5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5950891-1682-4523-B47D-DC773AD64E5B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AF117DD6-180A-4FAC-A198-3567AD93E62B}
+	EndGlobalSection
+EndGlobal
